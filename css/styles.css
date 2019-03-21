@@ -1,0 +1,12 @@
+.big {
+padding-top: 15px;
+}
+
+.gray {
+  background-color: lightgray;
+  border: 2px solid gray;
+}
+
+.top-margin {
+  margin-top: 15px;
+}
