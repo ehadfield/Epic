@@ -28,3 +28,39 @@ padding-top: 15px;
   padding-left: 320px;
   padding-right: 50px;
 }
+
+.logo {
+  width: 80px;
+}
+
+.left-gutter {
+  margin-left: 0px
+}
+
+.list {
+  list-style: none;
+  padding-inline-start: 10px;
+  margin-top: 40px;
+}
+
+.main-content {
+  border-left: 1px solid #a7d7f9;
+}
+
+.sidebar {
+  background-color: #f6f6f6;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar {
+    min-height: auto;
+    height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .left-gutter {
+    margin-left: auto;
+  }
+}
